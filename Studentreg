@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+        }
+
+        .container {
+            width: 400px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .gender {
+            width: auto;
+            margin-right: 10px;
+        }
+
+        /* Resume Upload */
+        input[type="file"] {
+            background-color: #f5f5f5;
+            padding: 8px;
+        }
+
+        .buttons {
+            text-align: center;
+        }
+
+        input[type="submit"], input[type="reset"] {
+            width: 45%;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+        }
+
+        input[type="reset"] {
+            background-color: #f44336;
+        }
+
+        /* Hover Effects */
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        input[type="reset"]:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Student Registration Form</h2>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label>Gender</label><br>
+
+        <input type="radio" name="gender" value="Male" class="gender"> Male
+        <input type="radio" name="gender" value="Female" class="gender"> Female
+        <input type="radio" name="gender" value="Other" class="gender"> Other
+
+        <br><br>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+
+        <label for="course">Course</label>
+        <select id="course" name="course">
+            <option value="">--Select Course--</option>
+            <option>BCA</option>
+            <option>BSc</option>
+            <option>BCom</option>
+            <option>BA</option>
+            <option>BTech</option>
+            <option>MCA</option>
+        </select>
+
+        <label for="address">Address</label>
+        <textarea id="address" name="address" rows="4"></textarea>
+
+        <label for="resume">Upload Resume</label>
+        <input type="file" id="resume" name="resume">
+
+        <div class="buttons">
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
+```
