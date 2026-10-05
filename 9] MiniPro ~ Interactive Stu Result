@@ -1,0 +1,206 @@
+<html>
+<head>
+
+    <title>Student Result</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            background-color: #eeeeee;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .box {
+            width: 500px;
+            margin: auto;
+            background-color: white;
+            padding: 25px;
+            border: 1px solid #cccccc;
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333333;
+        }
+
+        .names {
+            background-color: #f5f5f5;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #dddddd;
+        }
+
+        .names p {
+            margin: 5px 0;
+            color: #444444;
+        }
+
+        input {
+            width: 95%;
+            padding: 10px;
+            margin-top: 8px;
+            border: 1px solid #aaaaaa;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            background-color: #4169a1;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #315486;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f7f7f7;
+            border: 1px solid #dddddd;
+            line-height: 1.8;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+    <h1>Student Result</h1>
+
+    <div class="names">
+
+        <b>Student Names:</b>
+
+        <p>1. Cristiano</p>
+        <p>2. Leo</p>
+        <p>3. Diaz</p>
+        <p>4. Isco</p>
+
+    </div>
+
+    <label>Enter Student Name:</label>
+
+    <input type="text" id="name"
+           placeholder="Enter name">
+
+    <button onclick="showResult()">
+        Show Result
+    </button>
+
+    <div class="result" id="result">
+
+        Enter a name to see the marks.
+
+    </div>
+
+</div>
+
+
+<script>
+
+function showResult() {
+
+    var name = document.getElementById("name").value;
+
+    name = name.toLowerCase();
+
+    var python;
+    var dbms;
+    var web;
+
+    if (name == "cristiano") {
+
+        python = 92;
+        dbms = 88;
+        web = 95;
+
+    }
+
+    else if (name == "leo") {
+
+        python = 84;
+        dbms = 79;
+        web = 86;
+
+    }
+
+    else if (name == "diaz") {
+
+        python = 45;
+        dbms = 38;
+        web = 42;
+
+    }
+
+    else if (name == "isco") {
+
+        python = 76;
+        dbms = 81;
+        web = 73;
+
+    }
+
+    else {
+
+        document.getElementById("result").innerHTML =
+            "Student not found.";
+
+        return;
+    }
+
+    var total = python + dbms + web;
+
+    var average = total / 3;
+
+    var grade;
+
+    if (average >= 80) {
+        grade = "A";
+    }
+    else if (average >= 60) {
+        grade = "B";
+    }
+    else if (average >= 50) {
+        grade = "C";
+    }
+    else {
+        grade = "F";
+    }
+
+    var status;
+
+    if (average >= 40) {
+        status = "Pass";
+    }
+    else {
+        status = "Fail";
+    }
+
+    document.getElementById("result").innerHTML =
+
+        "<b>Name:</b> " + name.toUpperCase() +
+        "<br><b>Python:</b> " + python +
+        "<br><b>DBMS:</b> " + dbms +
+        "<br><b>Web Technology:</b> " + web +
+        "<br><b>Total:</b> " + total +
+        "<br><b>Average:</b> " + average.toFixed(2) +
+        "<br><b>Grade:</b> " + grade +
+        "<br><b>Result:</b> " + status;
+
+}
+
+</script>
+
+</body>
+</html>
