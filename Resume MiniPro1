@@ -1,0 +1,318 @@
+<html>
+
+<head>
+
+ <title>Suryaa Kumar Resume</title>
+
+ <style>
+
+/* Page background */
+
+body {
+
+font-family: Arial, sans-serif;
+
+background-color: #e0e0e0;
+
+margin: 20px;
+
+}
+
+/* White resume box */
+
+.resume {
+
+width: 800px;
+
+margin: 0 auto;
+
+background-color: white;
+
+display: flex; /* Puts left and right side side-by-side */
+
+padding: 20px;
+
+}
+
+/* Left column */
+
+.left-side {
+
+width: 40%;
+
+padding-right: 20px;
+
+border-right: 1px solid #ccc;
+
+}
+
+
+/* Right column */
+
+.right-side {
+
+width: 60%;
+
+padding-left: 20px;
+
+}
+
+/* Headings */
+
+h1 {
+
+margin: 0;
+
+font-size: 22px;
+
+color: #333;
+
+}
+
+h2 {
+
+font-size: 15px;
+
+color: #2c3e50;
+
+border-bottom: 1px solid #2c3e50;
+
+margin-top: 15px;
+
+}
+
+h3 {
+
+font-size: 13px;
+
+margin-top: 10px;
+
+margin-bottom: 2px;
+
+}
+
+p, li {
+
+font-size: 12px;
+
+color: #444;
+
+}
+
+
+ul {
+
+padding-left: 15px;
+
+margin-top: 5px;
+
+}
+
+ </style>
+
+</head>
+
+<body>
+
+<div class="resume">
+
+ <!-- LEFT COLUMN -->
+
+ <div class="left-side">
+
+<p><b>ABOUT ME</b></p>
+
+<h1>SURYAA KUMAR</h1>
+
+<p>A proactive and dedicated Computer Science student with a passion for technology and 
+problem-solving. Known for my strong work ethic, quick learning ability, and collaborative 
+mindset.</p>
+
+<h2>SKILLS</h2>
+
+<h3>SOFT SKILLS</h3>
+
+<ul>
+
+<li>Communication</li>
+
+<li>Problem Solving</li>
+
+<li>Teamwork</li>
+
+<li>Adaptability</li>
+
+<li>Self-Learner</li>
+
+</ul>
+
+
+
+<h3>TECHNICAL SKILLS</h3>
+
+<ul>
+
+<li>Data Analysis</li>
+
+<li>Artificial Intelligence</li>
+
+<li>AI Agents</li>
+
+<li>NLP & Computer Vision</li>
+
+<li>Prompt Engineering</li>
+
+<li>Python & SQL</li>
+
+<li>Excel & Power BI</li>
+
+<li>Tableau</li>
+
+<li>Digital Marketing</li>
+
+<li>Copywriting</li>
+
+</ul>
+
+<h2>EDUCATION</h2>
+
+<p><b>B.Sc COMPUTER SCIENCE</b> (2022-2025)<br>Sacred Heart College, Tirupattur</p>
+
+<p><b>HSC</b> (2021-2022)<br>Don Bosco School, Tirupattur</p>
+
+<p><b>SSC</b> (2020-2021)<br>Don Bosco School, Tirupattur</p>
+
+<h2>HOBBIES</h2>
+
+<ul>
+
+<li>Reading Books</li>
+
+<li>Football</li>
+
+<li>Video Editing</li>
+
+<li>Journaling</li>
+
+</ul>
+
+<h2>CONTACT</h2>
+
+<p>88381500</p>
+
+
+
+<p>suryaakumar.sv@gmail.com</p>
+
+<p>suryaa-sv</p>
+
+<p>linkedin.com/in/suryaa-kumar-sv036</p>
+
+ </div>
+
+ <!-- RIGHT COLUMN -->
+
+ <div class="right-side">
+
+<h2>INTERNSHIPS & COURSES</h2>
+
+<h3>NoviTech R&D Pvt. Ltd. (2025)</h3>
+
+<p><b>Artificial Intelligence Internship</b></p>
+
+<ul>
+
+<li>Explored Computer Vision, Deep Learning, and NLP.</li>
+
+</ul>
+
+<p><b>Data Analytics Internship</b></p>
+
+<ul>
+
+<li>Hands-on training in Excel, PowerBI, and Python.</li>
+
+</ul>
+
+<p><b>Machine Learning Internship</b></p>
+
+<ul>
+
+<li>Worked on ML model building & evaluation.</li>
+
+</ul>
+
+<h3>Full Stack & Cyber Security Bootcamp</h3>
+
+<ul>
+
+<li>Gained exposure to web development & IoT concepts.</li>
+
+</ul>
+
+<h3>Grow AI (2025)</h3>
+
+
+
+<p><b>Data Analytics Course</b></p>
+
+<ul>
+
+<li>Trained in Python, SQL, Excel, PowerBI, and Pandas.</li>
+
+</ul>
+
+<h3>Pantech Brain Computer Masterclass (2025)</h3>
+
+<p><b>Brain-Computer Interface Course</b></p>
+
+<ul>
+
+<li>Studied brain sensing tech & mini-projects.</li>
+
+</ul>
+
+<h2>PROJECT & WORKSHOP</h2>
+
+<h3>CHURCH MANAGEMENT SYSTEM</h3>
+
+<p>Developed a web portal that transforms traditional church activities into an online 
+experience for parishioners and priests.</p>
+
+<h3>DBCSD</h3>
+
+<p><b>BlockChain Technology</b></p>
+
+<ul>
+
+<li>Understood & learned Blockchain concepts practically.</li>
+
+</ul>
+
+<h3>LetsUpgrade (2025)</h3>
+
+<p><b>Prompt Engineering & RAG Bot</b></p>
+
+<ul>
+
+<li>Learned AI prompt design and built a RAG chatbot.</li>
+
+</ul>
+
+<h3>GenAI 101 - Pieces OS (2025)</h3>
+
+
+
+<ul>
+
+<li>Applied GenAI concepts practically.</li>
+
+</ul>
+
+ </div>
+
+</div>
+
+</body>
+
+</html>
