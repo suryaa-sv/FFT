@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>Semantic Department</title>
+
+ <style>
+
+* {
+
+box-sizing: border-box;
+
+}
+
+body {
+
+margin: 0;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+background-color: #0d0914; /* Deep midnight obsidian */
+
+color: #d8cedf;
+
+line-height: 1.6;
+
+}
+
+header {
+
+background: linear-gradient(135deg, #1b002c 0%, #3d0043 50%, 
+#110022 100%);
+
+padding: 35px 20px;
+
+text-align: center;
+
+color: #ffffff;
+
+border-bottom: 3px solid #ff007f; /* Electric Magenta */
+
+box-shadow: 0 4px 20px rgba(255, 0, 127, 0.2);
+
+}
+
+h1 {
+
+text-align: center;
+
+margin: 0 0 15px 0;
+
+font-family: 'Trebuchet MS', sans-serif;
+
+letter-spacing: 2px;
+
+color: #00f0ff; /* Neon Cyan */
+
+text-shadow: 0 0 12px rgba(0, 240, 255, 0.6);
+
+}
+
+nav {
+
+display: flex;
+
+margin: 0;
+
+padding: 0;
+
+text-align: center;
+
+justify-content: center;
+
+gap: 15px;
+
+flex-wrap: wrap;
+
+}
+
+nav li {
+
+list-style-type: none;
+
+margin: 5px 0;
+
+}
+
+nav li a {
+
+color: #39ff14; /* Electric Acid Green */
+
+text-decoration: none;
+
+font-weight: 700;
+
+font-size: 0.95rem;
+
+padding: 8px 14px;
+
+border-radius: 8px;
+
+border: 1px solid rgba(57, 255, 20, 0.2);
+
+background: rgba(20, 0, 35, 0.6);
+
+transition: all 0.3s ease;
+
+}
+
+nav li a:hover {
+
+color: #0d0914;
+
+background-color: #39ff14;
+
+box-shadow: 0 0 12px #39ff14;
+
+border-color: #39ff14;
+
+}
+
+section {
+
+text-align: center;
+
+margin: 30px auto;
+
+padding: 20px;
+
+max-width: 1200px;
+
+}
+
+h2 {
+
+text-align: center;
+
+margin-top: 20px;
+
+font-size: 34px;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+color: #ff007f; /* Magenta Glow */
+
+text-shadow: 0 0 10px rgba(255, 0, 127, 0.4);
+
+}
+
+h3 {
+
+color: #00f0ff; /* Neon Cyan */
+
+margin-top: 0;
+
+font-size: 1.3rem;
+
+}
+
+article {
+
+display: flex;
+
+justify-content: center;
+
+flex-wrap: wrap;
+
+gap: 18px;
+
+margin-top: 20px;
+
+}
+
+img {
+
+height: 140px;
+
+width: 140px;
+
+object-fit: cover;
+
+border-radius: 12px;
+
+border: 2px solid #ff7700; /* Electric Orange */
+
+box-shadow: 0 0 15px rgba(ff, 119, 0, 0.3);
+
+transition: transform 0.2s ease, border-color 0.2s ease;
+
+}
+
+img:hover {
+
+transform: scale(1.05) rotate(1deg);
+
+border-color: #00f0ff;
+
+}
+
+.box {
+
+background: linear-gradient(145deg, #180d28 0%, #23082d 100%);
+
+margin: 20px auto;
+
+padding: 30px;
+
+width: 100%;
+
+max-width: 700px;
+
+border-radius: 16px;
+
+border-left: 6px solid #ff7700;
+
+border-right: 1px solid rgba(255, 119, 0, 0.3);
+
+border-top: 1px solid rgba(255, 119, 0, 0.3);
+
+border-bottom: 1px solid rgba(255, 119, 0, 0.3);
+
+box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+
+text-align: left;
+
+}
+
+.cards {
+
+display: flex;
+
+justify-content: center;
+
+gap: 24px;
+
+margin-top: 30px;
+
+flex-wrap: wrap;
+
+}
+
+.card {
+
+background: #140a21;
+
+width: 280px;
+
+padding: 24px;
+
+border-radius: 16px;
+
+box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+
+border: 1px solid #2d123d;
+
+border-top: 3px solid #00f0ff;
+
+text-align: left;
+
+transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s 
+ease;
+
+}
+
+.card:hover {
+
+transform: translateY(-6px);
+
+border-color: #ff007f;
+
+box-shadow: 0 10px 25px rgba(255, 0, 127, 0.25);
+
+}
+
+.card p {
+
+font-size: 0.95rem;
+
+color: #bfaecb;
+
+margin-bottom: 8px;
+
+}
+
+table {
+
+width: 100%;
+
+max-width: 1000px;
+
+margin: 20px auto;
+
+border-collapse: collapse;
+
+background-color: #12081f;
+
+border-radius: 12px;
+
+overflow: hidden;
+
+border: 1px solid #321345;
+
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+th {
+
+background: linear-gradient(90deg, #ff007f 0%, #7928ca 100%);
+
+color: #ffffff;
+
+font-weight: 700;
+
+letter-spacing: 0.5px;
+
+text-transform: uppercase;
+
+font-size: 0.85rem;
+
+}
+
+th, td {
+
+border: 1px solid #281036;
+
+padding: 14px;
+
+text-align: center;
+
+font-size: 0.95rem;
+
+}
+
+tr:nth-child(even) {
+
+background-color: #1a0c2c;
+
+}
+
+tr:hover td {
+background-color: #26113f;
+
+color: #39ff14;
+
+}
+
+marquee h2 {
+
+color: #ff7700;
+
+font-size: 1.3rem;
+
+margin: 15px 0;
+
+text-shadow: 0 0 8px rgba(255, 119, 0, 0.5);
+
+}
+
+.intro-text {
+
+max-width: 800px;
+
+margin: 0 auto 20px auto;
+
+font-size: 1.05rem;
+
+color: #d8cedf;
+
+}
+
+b {
+
+color: #39ff14;
+
+}
+
+ </style>
+
+</head>
+
+<body>
+
+<tr>
+
+<th>Day</th>
+
+<th>Lab</th>
+
+<th>Time</th>
+
+</tr>
+
+<tr>
+
+<td>Monday</td>
+
+<td>Java Programming Lab</td>
+
+<td>2:00 PM - 4:00 PM</td>
+
+</tr>
+
+<tr>
+
+<td>Wednesday</td>
+
+<td>Web Development Lab</td>
+
+<td>2:00 PM - 4:00 PM</td>
+
+</tr>
+
+<tr>
+
+<td>Friday</td>
+
+<td>Data Science Lab</td>
+
+<td>2:00 PM - 4:00 PM</td>
+
+</tr>
+
+ </table>
+
+</section>
+
+<section id="achievements">
+
+ <h2>Achievements</h2>
+
+ <div class="cards">
+
+<article class="card">
+
+<h3>Student Achievements</h3>
+
+<p>• Active participation and podium finishes in national-level 
+hackathons.</p>
+
+<p>• Consistent top performance in competitive programming 
+contests.</p>
+
+<p>• Successful execution and deployment of real-world industry 
+projects.</p>
+
+</article>
+
+<article class="card">
+
+<h3>Faculty Achievements</h3>
+
+<p>• Research publications in esteemed international journals.</p>
+
+<p>• Regular hosting of hands-on technical workshops and 
+bootcamps.</p>
+
+<p>• Continuous mentorship for student innovations and research 
+projects.</p>
+
+</article>
+
+<article class="card">
+
+<h3>Department Events</h3>
+
+<p>• Annual technical fests and coding challenges conducted 
+systematically.</p>
+
+<p>• Interactive technical seminars hosted with industry 
+professionals.</p>
+
+</article>
+
+ </div>
+
+</section>
+
+<section id="events">
+
+ <h2>Events</h2>
+
+ <div class="cards">
+
+<article class="card">
+
+<h3>Workshops</h3>
+
+<p>
+
+Hands-on practical training covering Artificial Intelligence, Machine 
+Learning techniques, modern Web Frameworks, and Cloud Infrastructure.
+
+</p>
+
+</article>
+
+<article class="card">
+
+<h3>Seminars</h3>
+
+<p>
+
+Interactive sessions led by industry leaders to keep students aligned 
+with current enterprise trends and emerging technologies.
+
+</p>
+
+</article>
+
+<article class="card">
+
+<h3>Hackathons</h3>
+
+<p>
+
+Collaborative coding events designed to challenge students to build 
+creative solutions for real-world software problems.
+
+</p>
+
+</article>
+
+ </div>
+
+</section>
+
+<section id="contact">
+
+ <h2>Contact Us</h2>
+
+ <div class="box">
+
+<h3>Department Address</h3>
+
+<p>
+
+Semantic Department,<br>
+
+School of Computer Applications,<br>
+
+Alliance University,<br>
+
+Bengaluru, Karnataka, India
+
+</p>
+
+<p><b>Email:</b> department@example.com</p>
+
+<p><b>Phone:</b> +91 98765 43210</p>
+
+ </div>
+
+</section>
+
+</main>
+
+</body>
+
+</html>
