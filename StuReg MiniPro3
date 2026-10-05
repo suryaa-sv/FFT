@@ -1,0 +1,223 @@
+<html>
+
+ <head>
+
+<title>Student Registration Form</title>
+
+ <style>
+
+h1{text-align: center;}
+
+form{
+
+border: 1px solid black;
+
+width: 500px;
+
+margin: 300px;
+
+background-color: red;
+
+box-shadow: 4px 8px 12px;
+
+}
+
+lable{
+
+margin-left: 90px;
+
+}
+
+#i1{
+
+width: 200px;
+
+height: 20px;
+
+margin-left: 60px;
+
+} 
+
+#i2{
+
+width: 100px;
+
+height: 20px;
+
+margin-left: 10px;
+
+} 
+
+#i3{
+
+width: 30px;
+
+height: 20px;
+
+
+margin-left: 20px;
+
+} 
+
+#i4{
+
+width: 200px;
+
+height: 20px;
+
+margin-left: 70px;
+
+}
+
+#i5{
+
+width: 200px;
+
+height: 20px;
+
+margin-left: 70px;
+
+} 
+
+#i6{
+
+width: 200px;
+
+height: 20px;
+
+margin-left: 50px;
+
+} 
+
+#i7{
+
+width: 200px;
+
+height: 20px;
+
+margin-left: 70px;
+
+} 
+
+#i8{
+
+width: 200px;
+
+height: 20px;
+
+margin-left: 90px;
+
+} 
+
+#i9{
+
+width: 200px;
+
+height: 20px;
+
+margin-left: 60px;
+
+} 
+
+#i10{
+
+width: 200px;
+
+height: 20px;
+
+margin-left: 60px;
+
+} 
+
+#i11{
+
+width: 200px;
+
+height: 20px;
+
+margin-left: 70px;
+
+} 
+
+#b1{
+
+margin-left: 200px;
+
+margin-bottom: 10px;
+
+background-color:blue;
+
+color:red;
+
+border: none;
+
+border-radius: 5px;
+
+} 
+
+ </style>
+
+ </head>
+
+ <body>
+
+<form>
+
+<h1>Student Registration Form</h1>
+
+<lable>Reg id:</lable>
+
+<input type="text" id="i1" placeholder="enter your reg id"><br><br>
+
+<lable> Student Name:</lable>
+
+<input type="text" id="i2"><br><br>
+
+<lable>Gender</lable>
+
+
+<input type="radio" id="i3" name="gender">male
+
+<input type="radio" id="i3" name="gender">female<br><br>
+
+<lable>DOB:</lable>
+
+<input type="date" id="i4"><br><br>
+
+<lable>Email:</lable>
+
+<input type="text" id="i5"><br><br>
+
+<lable>phone no:</lable>
+
+<input type="number" id="i6"><br><br>
+
+<lable>course:</lable>
+
+<input type="text" id="i7"><br><br>
+
+<lable>sec:</lable>
+
+<input type="text" id="i8"> <br><br>
+
+<lable>college:</lable>
+
+<input type="text" id="i9"><br><br>
+
+<lable>address:</lable>
+
+<input type="text" id="i10"><br><br>
+
+<lable>resume:</lable>
+
+<input type="file" id="i11"><br><br>
+
+<button id="b1"> submit</button>
+
+<button id="b2">reset</button>
+
+</form>
+
+ </body>
+
+</html>
