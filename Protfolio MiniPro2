@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>Suryaa Kumar - Portfolio</title>
+
+ <style>
+
+/* General Setup */
+
+body {
+
+font-family: Arial, sans-serif;
+
+background-color: #fafafa;
+
+color: #333333;
+
+margin: 0;
+
+padding: 0;
+
+line-height: 1.6;
+
+}
+
+/* Navigation Bar */
+
+nav {
+
+background-color: #ffffff;
+
+border-bottom: 1px solid #e0e0e0;
+
+text-align: center;
+
+padding: 15px 0;
+
+position: sticky;
+
+top: 0;
+
+}
+
+nav a {
+
+
+color: #555555;
+
+text-decoration: none;
+
+margin: 0 15px;
+
+font-size: 14px;
+
+font-weight: bold;
+
+}
+
+nav a:hover {
+
+color: #000000;
+
+}
+
+/* Main Container */
+
+.container {
+
+max-width: 800px;
+
+margin: 0 auto;
+
+padding: 40px 20px;
+
+}
+
+/* Hero Banner */
+
+.hero {
+
+text-align: center;
+
+padding: 40px 0 60px 0;
+
+border-bottom: 1px solid #e0e0e0;
+
+}
+
+.hero h1 {
+
+font-size: 36px;
+
+margin-bottom: 10px;
+
+color: #111111;
+
+}
+
+
+.hero p {
+
+font-size: 16px;
+
+color: #666666;
+
+margin-top: 0;
+
+}
+
+/* Content Sections */
+
+section {
+
+padding: 40px 0;
+
+border-bottom: 1px solid #e0e0e0;
+
+}
+
+h2 {
+
+font-size: 20px;
+
+color: #111111;
+
+margin-bottom: 20px;
+
+text-transform: uppercase;
+
+letter-spacing: 1px;
+
+}
+
+h3 {
+
+font-size: 16px;
+
+color: #333333;
+
+margin-bottom: 5px;
+
+}
+
+.sub-title {
+
+font-size: 13px;
+
+color: #777777;
+
+
+margin-bottom: 10px;
+
+font-style: italic;
+
+}
+
+.card {
+
+background-color: #ffffff;
+
+border: 1px solid #e5e5e5;
+
+padding: 20px;
+
+margin-bottom: 20px;
+
+border-radius: 4px;
+
+}
+
+/* Lists */
+
+ul {
+
+padding-left: 20px;
+
+margin-top: 5px;
+
+}
+
+li {
+
+font-size: 14px;
+
+color: #555555;
+
+margin-bottom: 5px;
+
+}
+
+/* Skills Layout */
+
+.skills-grid {
+
+display: flex;
+
+gap: 20px;
+
+}
+
+
+.skills-column {
+
+flex: 1;
+
+background-color: #ffffff;
+
+border: 1px solid #e5e5e5;
+
+padding: 20px;
+
+border-radius: 4px;
+
+}
+
+/* Contact Section */
+
+.contact-box {
+
+background-color: #ffffff;
+
+border: 1px solid #e5e5e5;
+
+padding: 20px;
+
+border-radius: 4px;
+
+}
+
+.contact-box p {
+
+margin: 8px 0;
+
+font-size: 14px;
+
+}
+
+/* Footer */
+
+footer {
+
+text-align: center;
+
+padding: 20px 0;
+
+font-size: 12px;
+
+color: #888888;
+
+}
+
+ </style>
+
+</head>
+
+<body>
+
+ <!-- TOP NAVIGATION -->
+
+ <nav>
+
+<a href="#about">About</a>
+
+<a href="#skills">Skills</a>
+
+<a href="#experience">Experience</a>
+
+<a href="#projects">Projects</a>
+
+<a href="#education">Education</a>
+
+<a href="#contact">Contact</a>
+
+ </nav>
+
+ <div class="container">
+
+<!-- HERO SECTION -->
+
+<header class="hero">
+
+<h1>Hi, I'm Suryaa Kumar</h1>
+
+<p>Computer Science Student & Aspiring Technology Professional</p>
+
+</header>
+
+<!-- ABOUT SECTION -->
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="card">
+
+<p>A proactive and dedicated Computer Science student with a passion for technology and 
+problem-solving. Known for my strong work ethic, quick learning ability, and collaborative mindset. 
+I thrive in fast-paced environments and am committed to delivering high-quality results while 
+continuously expanding my skills.</p>
+
+</div>
+
+</section>
+
+<!-- SKILLS SECTION -->
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skills-column">
+
+<h3>Technical Skills</h3>
+
+<ul>
+
+<li>Data Analysis</li>
+
+<li>Artificial Intelligence</li>
+
+<li>AI Agents</li>
+
+<li>NLP & Computer Vision</li>
+
+<li>Prompt Engineering</li>
+
+<li>Python & SQL</li>
+
+<li>Excel & Power BI</li>
+
+<li>Tableau</li>
+
+<li>Digital Marketing & Copywriting</li>
+
+</ul>
+
+</div>
+
+<div class="skills-column">
+
+<h3>Soft Skills</h3>
+
+<ul>
+
+<li>Communication</li>
+
+<li>Problem Solving</li>
+
+<li>Teamwork</li>
+
+<li>Adaptability</li>
+
+<li>Self-Learner</li>
+
+</ul>
+
+<h3 style="margin-top: 20px;">Hobbies</h3>
+
+<ul>
+
+<li>Reading Books</li>
+
+<li>Football</li>
+
+<li>Video Editing</li>
+
+<li>Journaling</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- EXPERIENCE SECTION -->
+
+<section id="experience">
+
+<h2>Internships & Training</h2>
+
+<div class="card">
+
+<h3>NoviTech R&D Pvt. Ltd.</h3>
+
+<div class="sub-title">2025</div>
+
+<ul>
+
+<li><b>Artificial Intelligence Internship:</b> Explored Computer Vision, Deep Learning, 
+and NLP with real-world projects.</li>
+
+<li><b>Data Analytics Internship:</b> Hands-on training in Excel, PowerBI, and Python 
+Notebooks for data insights.</li>
+
+<li><b>Machine Learning Internship:</b> Worked on ML model building & evaluation 
+with practical datasets.</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>Grow AI</h3>
+
+<div class="sub-title">2025</div>
+
+<ul>
+
+<li><b>Data Analytics Course:</b> Trained in Python, SQL, Excel, PowerBI, Pandas & data 
+visualization tools.</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>Pantech Brain Computer Masterclass</h3>
+
+<div class="sub-title">2025</div>
+
+<ul>
+
+<li><b>Brain-Computer Interface Course:</b> Studied brain sensing tech & implemented 
+related mini-projects.</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>Full Stack & Cyber Security Bootcamp</h3>
+
+<ul>
+
+<li>Gained exposure to web development, IoT concepts & basic security.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<!-- PROJECTS SECTION -->
+
+<section id="projects">
+
+<h2>Projects & Workshops</h2>
+
+<div class="card">
+
+<h3>Church Management System</h3>
+
+<p>Developed a user-friendly web portal that transforms traditional church activities into 
+an online experience, empowering parishioners and giving priests complete administrative control 
+and community insights.</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>LetsUpgrade</h3>
+
+<div class="sub-title">2025</div>
+
+<ul>
+
+<li><b>Prompt Engineering:</b> Learned techniques to design effective AI prompts.</li>
+
+<li><b>RAG Bot with Python:</b> Built a Retrieval-Augmented Generation chatbot using 
+Python.</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>GenAI 101 - Pieces OS</h3>
+
+<div class="sub-title">2025</div>
+
+<p>Understood Pieces OS tools & applied GenAI concepts practically.</p>
+
+</div>
+
+<div class="card">
+
+<h3>DBCSD</h3>
+
+<p><b>BlockChain Technology:</b> Understood & learned Blockchain concepts 
+practically.</p>
+
+</div>
+
+</section>
+
+<!-- EDUCATION SECTION -->
+
+<section id="education">
+
+<h2>Education</h2>
+
+<div class="card">
+
+<h3>B.Sc Computer Science</h3>
+
+<div class="sub-title">2022 - 2025</div>
+<p>Sacred Heart College, Tirupattur</p>
+
+</div>
+
+<div class="card">
+
+<h3>Higher Secondary (HSC)</h3>
+
+<div class="sub-title">2021 - 2022</div>
+
+<p>Don Bosco School, Tirupattur</p>
+
+</div>
+
+<div class="card">
+
+<h3>Secondary School (SSC)</h3>
+
+<div class="sub-title">2020 - 2021</div>
+
+<p>Don Bosco School, Tirupattur</p>
+
+</div>
+
+</section>
+
+<!-- CONTACT SECTION -->
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="contact-box">
+
+<p><b>Phone:</b> 8838150039</p>
+
+<p><b>Email:</b> suryaakumar.sv@gmail.com</p>
+
+<p><b>GitHub:</b> suryaa-sv</p>
+
+<p><b>LinkedIn:</b> linkedin.com/in/suryaa-kumar-sv036</p>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>&copy; 2026 Suryaa Kumar. All rights reserved.</p>
+
+
+</footer>
+
+ </div>
+
+</body>
+
+</html>
